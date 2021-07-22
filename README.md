@@ -43,8 +43,8 @@ something about PWA Web APP
   ```
 ```
 {
-    "name": "曜昇綠能",
-    "short_name": "曜昇監控APP",
+    "name": "我的監控",
+    "short_name": "我的監控APP",
     "start_url": "https://myapp.herokuapp.com/mobile/index.html?source=pwa",
     "display": "standalone",
     "background_color": "#EEEEEE",
