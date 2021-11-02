@@ -29,6 +29,10 @@ something about PWA Web APP
   - start_url 則是你這一個PWA APP的位置，但是注意早期iOS(11以前)不會管這一欄，他會用你`加入主畫面`時的url位置
   - icon: 是程式載入時要顯示的圖
   - !! `name`、`background_color`、`icon`組成`Splash screens` --> 重要! 這是android的做法
+  - Android和iOS都要在mobile版的網頁中加入這一行(一般是加在head中)
+  ```
+  <link rel="manifest" href="manifest.json">
+  ```
   - 但是iOS就要改成在 index.html中的描述標籤決定了 --> 這可以讓你自己放一張圖片，客製化的更好
   ```
         <link
